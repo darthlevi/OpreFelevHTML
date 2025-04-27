@@ -1,0 +1,33 @@
+/* 27445D
+497D74
+71BBB2
+EFE9D5 */
+/* Navigációs sáv háttérszín */
+.navbar {
+    background-color: #27445D !important;
+    /* Első szín a háttérhez */
+}
+
+/* Linkek és szöveg színe */
+.navbar-light .navbar-nav .nav-link {
+    color: #EFE9D5 !important;
+    /* Második szín a linkekhez */
+}
+
+/* Hover effektus linkekre */
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff !important;
+    /* Fehér szín hover állapotban */
+}
+.navbar-brand{
+    color: #b85560  !important;
+}
+.bg-custom {
+    background-color: #71BBB2; /* Kívánt szín */
+}
+.textcolor {
+    color: #EFE9D5;
+}
+.secondbg{
+    background-color: #27445D;
+}
