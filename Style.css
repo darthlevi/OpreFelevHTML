@@ -1,33 +1,61 @@
-/* 27445D
-497D74
-71BBB2
-EFE9D5 */
-/* Navigációs sáv háttérszín */
-.navbar {
-    background-color: #27445D !important;
-    /* Első szín a háttérhez */
-}
+body {
+    background-color: #f8f9fa;
+  }
 
-/* Linkek és szöveg színe */
-.navbar-light .navbar-nav .nav-link {
-    color: #EFE9D5 !important;
-    /* Második szín a linkekhez */
-}
+  .navbar {
+    background-color: #dc3545;
+  }
 
-/* Hover effektus linkekre */
-.navbar-light .navbar-nav .nav-link:hover {
-    color: #ffffff !important;
-    /* Fehér szín hover állapotban */
-}
-.navbar-brand{
-    color: #b85560  !important;
-}
-.bg-custom {
-    background-color: #71BBB2; /* Kívánt szín */
-}
-.textcolor {
-    color: #EFE9D5;
-}
-.secondbg{
-    background-color: #27445D;
-}
+  .navbar-brand, .navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+  }
+
+  .carousel-inner img {
+    border-radius: 10px;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: none;
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card-title {
+    color: #dc3545;
+    font-weight: bold;
+  }
+
+  h1, h2, h3 {
+    color: #343a40;
+    font-weight: bold;
+  }
+
+  p {
+    color: #6c757d;
+  }
+
+  .rounded-circle {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 4px solid #dc3545;
+  }
+
+  .container h2 {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+  }
